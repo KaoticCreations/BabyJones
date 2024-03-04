@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+ }  
+
+@media screen and (max-width: 780px){
+    body{
+        /*
+        display:flex;
+        flex-direction: column;
+        */
+
+        grid-template-columns: 200px 580px ;    
+        width: 780px;
+    }
+    .kContainrPhotoSht{   
+        display:flex;
+        flex-direction: column;
+
+        width: 680px;
+        grid-column: 1;
+    }        
+        
+    .kmainphotosht{
+        
+        gap: 25px;
+        width: 580px;
+
+        margin-top: 75px;
+        
+        
+    }
+    .imagetop{
+
+        width:  580px;
+        height: fit-content;
+    }
+    .imageBlu{
+        width:  580px;
+        width:  fit-content;
+    }
+    .imagePnk{
+        width:  580px;
+        width:  fit-content;
+    }
+    .kcardphotosht{        
+        width: 580px;
+    }
+     #title{
+        
+        font-size: 50px;
+        padding-top:50px;
+        margin-bottom: 0px;
+    }
+}
+    @media screen and (max-width: 380px){
+        body{
+            display:flex;
+            flex-direction: column;
+            width: 380px;
+        }
+        .kContainrPhotoSht{   
+            width: 380px;
+                grid-column: 1;
+        }        
+        
+
+    }
+
+
+
+
+
+
+
+body{
+    max-width: 1680px; 
+    min-width: 586px;
+    
+    width: 1580px;
+    background-color: #7d7daf;    
+    margin-top:0;
+    display:grid;
+    grid-template-columns: 200px 1580px ;    
+    grid-template-rows: 120px 700px 500px auto;
+    margin-top: 0px;
+    
+   
+    
+}
+
+
+.kContainrPhotoSht{   
+/*
+    display: grid;    
+    grid-template-rows:  auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr  ;
+ */
+    grid-column: 2/3;
+    grid-row: 2;
+
+    width: 1580px;
+    height: fit-content;  
+    
+    align-items: center;
+    
+    
+    
+    
+
+    background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb );
+    border: 2px solid #e44ae9;
+    border-radius: 5rem;
+   
+    
+   
+}
+
+.kheaderPhotoSht{
+    
+    width: 500px;
+    height: fit-content;  
+    padding:60px;
+    padding-top:30px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    background-image: linear-gradient(#6498d4 ,#6498d4,#e77ceb );
+    border-radius: 2rem;
+
+    
+    
+    
+}
+
+.kmainphotosht{
+    
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.kcardphotosht{
+    /*
+    display: grid;    
+    grid-template-rows:  auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr  ;
+*/
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+    gap: 100px;
+    margin-bottom: 175px;
+    margin: auto;
+    
+}
+
+#title{
+    color:#7d7daf;
+    font-size: 75px;
+    margin-bottom: 175px;
+}
+.imagetop{
+
+    width: 600px;
+    height: fit-content;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    
+    border:  solid 3px #3280e6;
+
+    border-bottom: solid 1px #e44ae9;
+    
+    border-radius: 20px ;
+    border-width: 13px 8px 20px 18px;
+    box-shadow: 9px 5px 2px 3px #f3f3f3;
+}
+
+.imageBlu{
+    
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 50px;
+    
+    border:  solid 3px #3280e6;
+
+    border-bottom: solid 1px #e44ae9;
+    
+    border-radius: 20px ;
+    border-width: 13px 8px 20px 18px;
+    box-shadow: 9px 5px 2px 3px #f3f3f3;
+}
+
+.imagePnk{
+    
+    
+    width: fit-content;
+    margin-bottom: 50px;
+    border:  solid 3px #e44ae9;
+
+    border-bottom: solid 1px #3280e6;
+    
+    border-radius: 15px ;
+    border-width: 3px 8px 19px 18px;
+    box-shadow: 9px 5px 2px 3px #f3f3f3;
+}
