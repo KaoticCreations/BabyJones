@@ -185,5 +185,7 @@
     }
           
    .imageBlu2 {
-        display:none;
+        width: 500px;
+        margin-bottom: 150px;
+        margin-top: 250px;
     }
