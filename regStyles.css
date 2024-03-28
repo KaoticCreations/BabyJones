@@ -43,88 +43,402 @@
 
     }
 
-    body{
-        max-width: 1380px; 
-        min-width: 380px;
-        
-        width: 1280px;
-        background-color: #7d7daf;    
-        margin-top:0;
-        display:grid;
-        grid-template-columns: 200px 1380px ;    
-        grid-template-rows: 120px 700px  auto;         
-    }
-
-
-.ktainrReg{
-    grid-row: 1;
-    grid-column: 2;    
-    width:980px;
-    height: fit-content;  
-    padding:30px;
-    padding-bottom:200px;
-    
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;    
-
-    background-image: linear-gradient(#f3f3f3 ,#6498d4,#6498d4,#e77ceb );
-    border-radius: 5rem;
-
-    display:flex;
-    flex-direction: column;   
+   
+.body{
+  
+  min-width: 380px;
+  max-width: 2250px;  
+  height: 920px;
+     
 }
 
-.kheaderReg{
-    /*width: fit-content;*/
-    width: fit-content;
-    height:fit-content;
-    margin-left: 20px ;
-    margin-right: 50px ;
-    padding:10px;
-    
-    margin-top: 0px ;
-    
-    border:  solid 3px #a7d7eb;
-    
-    border-bottom: solid 1px #6498d4;
-    
-    border-radius: 3px ;
-    border-width: 33px 28px 19px 33px;
-    box-shadow: 0px 5px 2px 3px #e77ceb;
-    opacity: 100%;
-    background-color: #f3f3f3;
-    font-size: 25px;
+.kTainr{
+  min-width: 180px;
+  width:auto;
+  height:760px;
+  
+  background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb,#f3f3f3 ); 
+  border: solid 5px 5px 2px 3px #000066; 
+  box-shadow: 0px 5px 2px 3px #000066;
+
+  margin-top: 0;
+ 
+
 }
-.kmainReg{
-    margin-top: 200px;
-    grid-column: 2;
-    margin:auto;
+
+.kheadr{
+margin-top: 0px;
+  
 }
-.kcardReg img{
-width: 500px;
+
+.Kbanner{
+  
+  box-shadow: 0px 5px 2px 3px #000066;
+  margin:auto;
+  margin-left:200px;
+  
 }
+
+  .title{
+
+    color:#7d0788;
+    font-family: "Oooh Baby", cursive;
+    font-weight: 700;      
+    font-size: 3em;
+
+  }
+  .title span{
+
+    color:#2d2268;
+    font-family: "Oooh Baby", cursive;
+    font-weight: 700;      
+    font-size: 1.5em;
+
+  }
+.title2{
+  color:#7d0788;
+  font-family: "Oooh Baby", cursive;
+  font-weight: 700;      
+  font-size: 2em;
+}
+
+
+.regCard{
+
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: fit-content;
+  
+  height: 250px;
+  margin-top: 20px;
+  font-size: 50px;
+
+}
+.kcard{
+  width: 600px;
+  height: auto;
+  margin:auto;
+
+  
+  margin-bottom:5%;
+  margin-top: 60px;
+  
+
+  background-image: linear-gradient(#2d2268,#c3c3c3,#c3c3c3,#c3c3c3,#7d0788 ); 
+  border: solid ;
+  box-shadow: 0px 5px 2px 13px #000066;
+  border-radius: 4em 8em 1em 3em;
+  border-color: #2d2268 #fff #7d0788;
+}
+
+.kcard label{
+ 
+      
+}
+.lblvisitReg{
+  font-family: "Oooh Baby", cursive;
+    font-weight: 400;
+    color:#7d0788;
+    color:#2d2268;
+
+}
+.kcard1{
+  display:flex;
+  flex-wrap: wrap;
+  gap:15px;
+  
+  margin-left:20%;
+  
+  scale: 1;
+  
+  
+}
+.kcard2{
+  
+  
+  
+  margin-left:15%;
+  margin-top:-80px ;
+  scale: 1;
+  
+}
+
+                    
+
+
+.kNavCtrl{
+   scale: .75;
+   margin-left: 0;
+   position: fixed;
+   z-index: 3;
+  
+}
+
+
+
+.kmain{
+  display:flex;
+  flex-wrap: wrap;
+  
+    
+
+}
+
+.kside{
+  
+
+}
+.kAbyss{
+ 
+    
+  
+
+}
+
+
+
+
 .kcardReg{
 
-    display: flex;
-    flex-direction: row;
+    width:300px;
+    height: fit-content;
 
-    width: 600px;
-    height:fit-content;
-    margin-left: 00px ;
-    margin-right: 50px ;
     
-    margin-top: 20px ;
+    margin:auto;
+    margin-top: -200px;
+    margin-bottom:.2rem;
+    
 
-    border:  solid 3px #a7d7eb;
+    background-image: linear-gradient(#2d2268,#c3c3c3,#c3c3c3,#c3c3c3,#7d0788 ); 
+    border: solid ;
+    box-shadow: 0px 5px 2px 13px #000066;
+    border-radius: 4em 8em 1em 3em;
+    border-color: #2d2268 #fff #7d0788;
+   
+}
+
+.kcardReg img{
     
-    border-bottom: solid 1px #6498d4;
+    }
+.linkTag,.linkTag2{
+  font-family: "Oooh Baby", cursive;
+      font-weight: 700;        
+      font-size: 2rem;
+
+  
+
+  width:80%;
+  height: auto;
+  margin: auto;
+  
+
+
+}
+.linkTag img{
+  width: 100%;
+  
+}
+.linkTag2 img{
+  width: 100%;  
+
+}
+
+.kaotiCreations{
+  display:flex;
+  flex-wrap: nowrap;
+  
+  background-image: linear-gradient(#f3f3f3,#2d2268,#e77ceb,#c9c9c9,#c9c9c9); 
+  width: 50%;
+  height: 100px;   
+  margin: auto;
+  
+  border: solid #2d2268;
+  border-width: 0 0 1rem .5rem;
+  border-radius: 25rem 25rem 15rem 15rem;
+}
+
+.kaotiCreations img{
+  margin-left: 80px;
+  margin-top: -50px;
+  
+  scale: .5;      
+}
+
+.kaotic{
+  margin-top: 30px;
+  margin-left: -80px;
+}
+
+.kaotiCreations label{
+  color: #2d2268;
+  font-size: 2rem;  
+}
+
+.kaotiCreations span{
+  color: #7d0788;
+  font-size: 3rem;
+  
+}
+
+
+
+
+
+    /********************************    MEDIA    ****************************/
     
-    border-radius: 3px ;
-    border-width: 33px 28px 19px 33px;
-    box-shadow: 0px 5px 2px 3px #e77ceb;
-    opacity: 100%;
-    background-color: #f3f3f3;
-    font-size: 25px;
+
+        /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 380px) {
+  /*
+  .kcard1{
+      
+      margin: auto;
+      margin-top: -3em ;
+
+    }
+    .kcard2, .kcard3{
+      margin-left: 8%;
+      margin-right: auto;
+      margin-top: -3em ;
+      scale:.75;
+    }
+    */
+
+
+}
+
+
+
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /*
+  .kcard1{
+      margin-left: 5%;
+      margin-right: auto;
+      margin-top: -3em ;
+
+    }
+    .kcard2, .kcard3{
+      margin-left: 3%;
+      margin-right: auto;
+      margin-top: -3em ;
+
+    }
+*/
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  /*
+  .kcard1, .kcard2, .kcard3{
+    margin-left: 25%;
+    margin-right: auto;
+    margin-top: 1em ;
+
+  }
+*/
+
+  .kheadr{
+    font-size: 1rem;
+
+  }
+  .kcard{
+    margin-left: 0;
+  }
+
+  .kcard,.kcard1 .kcard2, .kcard3, .kcard label{
+    scale: .5;
+  }
+
+
+}
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+  .kheadr{
+    font-size: .3em;
+
+  }
+  .kcard, .kcard label{
+    margin: auto;
+  }
+  .kcard, .kcard1, .kcard2, .kcard3{
+    scale: .875;
+  }
+ 
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  /*
+    margin-left: 45%;
+    margin-right: auto;
+    margin-top: 2.5em ;
+    scale: 1.75;
+
+  }
+  */
+  .kheadr{
+    font-size: .5em;
+
+  }
+  .kcard{
+    padding: 0;
+  }
+
+
+}
+
+@media only screen and (min-width: 1080px) {
+  
+
+
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+/*
+  .kcard1, .kcard2, .kcard3{
+    margin-left: 55%;
+    margin-right: auto;
+    margin: auto;
+    margin-top: 2.5em ;
+    scale: 2;
+
+  }
+  */
+  
+  
+
+ 
+  .kcard{
     
+
+  }
+
+  
+ 
+  
+}
+
+@media only screen and (min-width: 1800px) {
+/*
+  .kcard1, .kcard2, .kcard3{
+    margin-left: 60%;
+    margin-right: auto;
+    margin-top: 3.5em ;
+    scale: 2.5;
+
+  }
+ */
+  
 }
