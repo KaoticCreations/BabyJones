@@ -1,1 +1,87 @@
 
+.kcard{
+    /*
+    margin-left: 10%;
+    margin-bottom:20%;
+    */
+}
+.kcard1,.kcard5{
+    /*
+    margin-left: 10%;
+    margin-top: 15%;
+    */
+}
+
+
+.kcard img{
+    width: 20%;
+    
+    border: solid  #7d0788;    
+    border-radius: 5rem ;
+
+    border-width: 3px 8px 19px 18px;
+    box-shadow: 3px 5px 2px 3px #2d2268;
+
+}
+.kcard img:hover{
+    border: solid 5px #2d2268;
+    
+    border-radius: 5rem ;
+    box-shadow: 0 6px 6px 8px #7d0788;
+        
+    scale:5.75;
+    
+    height: fit-content;  
+    opacity: 100%;   
+    background-color: #3280e6;
+    margin-left: 0;
+    margin-bottom: 50%;
+
+}
+
+
+.kcard1 img,.kcard5 img{
+    width: 10%;
+    border: solid  #e77ceb;    
+    border-radius: 20rem ;
+
+    border-width: 3px 8px 19px 18px;
+    box-shadow: 9px 5px 2px 3px #3280e6;
+
+}
+.kcard1 img:hover {
+    border: solid 5px #2d2268;
+    
+    border-radius: 5rem ;
+    box-shadow: 0 6px 6px 8px #ad24c9;
+        
+    scale:10.75;
+    
+    height: fit-content;  
+    opacity: 100%;   
+    background-color: #3280e6;
+    margin-left: 20%;
+    margin-bottom: 250px;
+
+}
+
+.kcard5 img:hover{
+    margin-bottom: 50%;
+    border: solid 5px #2d2268;
+    
+    border-radius: 5rem ;
+    box-shadow: 0 6px 6px 8px #ad24c9;
+        
+    scale:10.75;
+    
+    height: fit-content;  
+    opacity: 100%;   
+    background-color: #3280e6;
+    margin-left: 20%;
+    margin-bottom: 250px;
+
+
+}
+
+
+
