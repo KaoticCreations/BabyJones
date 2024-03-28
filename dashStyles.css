@@ -1,96 +1,251 @@
+
 *{
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 780px){
-    body{
-        /*
-        display:flex;
-        flex-direction: column;
-        */
 
-        grid-template-columns: 200px 380px ;    
-        width: 780px;
-    }
-    .kContainrdash{   
-        width: 380px;
-            
-    }     
-    
-    
-}
+
+
+
 
 body{
-    max-width: 780px; 
+    
     min-width: 380px;
+    max-width: 3250px;  
     
-    width: 780px;
-    height: 980px;  
-    background-color: #7d7daf;    
-    margin:auto ;
-    margin-top:0;
-    display:grid;
-    grid-template-columns: 200px 580px ;    
-    grid-template-rows: 120px 700px 500px auto;
+    height: auto;
+    /*
+    background-image: url(kCreate.png);
+    
+    
+    background-image: url(BabyJ_MaternityNew2.svg);
+    background-image: url(dashBckGrnd.svg);  
+    background-image: url(kCreate.png);
+    background-image: url(dashBckGrnd.svg);  
+    
+    background-repeat: no-repeat;  
+    
+    background-size: cover;
+    */
+    
+    margin: 0;
+    
+    
+}
+
+
+.kheadr{
        
-   
+  
+}
+.Kbanner{
+  
+}
+
+.kTainr{
+    width: 380px;
+    height:auto;
     
+
+    
+}
+
+.knav{
+ 
+  
 }
 
 
 
-.kContainrDash{
-
-    grid-row: 1;
-    grid-column: 2;    
-    width:fit-content;
-    height: 800px;  
-    
-    margin-top:50px ;
-    padding: 20px;
-    background-image: linear-gradient(#f3f3f3 ,#6498d4,#6498d4,#e77ceb );
-    border-radius: 5rem;
-}
-
-
-.kmainDash{  
-    grid-row: 2;
-    grid-column: 2; 
-    
+.kmain{
       
-    
-}
-.kcarddash{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap; 
+     margin-top: 0; 
+
+
+}
+.kRow{
+   
+    z-index:3;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+    margin-left: 5%;
+
+}
+.kRow2{
+
+    z-index:3;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+    margin-left: 10%;
+    
+
+
+}
+.kRow2{
+
+    z-index:3;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+    margin-left: 10%;
+    
+
+
+}
+.kRow3{
+
+    z-index:3;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+    margin-left: 10%;
+    display: none;
+    
+
+
+}
+.kRow4{
+
+    z-index:3;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+    margin-left: 10%;
+    display: none;
+    
+
+
+}
+.kRow5{
+
+        z-index:3;
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+    
+        margin-left: 10%;
+        display: none;
+    
+    
+}
+.kRow6{
+
+
+    z-index:3;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+    margin-left: 10%;
+    display: none;
+
+
+}
+.kRow7{
+
+
+    z-index:3;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+    margin-left: 10%;
+    display: none;
+
+
+}
+
+
+.kside{
+  
+
+}
+.kAbyss label{
+
+    font-size: 70px;
+
+    text-align: center;
+    margin-left: 43%;
+    opacity: 30%;
+ 
+
+  
+
+}
+
+.kcard {
+    margin-right: 300px;
+
+
+
+}
+.kcard1{
+    margin-right: 300px;
+    margin-top: 100%;
+    
+
+
+}
+
+
+
+.kcard img, .kcard1 img,.kcard2 img,.kcard3 img, .kcard4 img,.kcard5 img,.kcard6 img{
+    margin-left: 150px;
+    
+    width: 50px;
+    scale:.75;
+
+    
+    
+    
+    height:fit-content;
+    margin: auto;
+    
+    
+    border: solid  #3280e6;
+    
+    border-radius: 50% ;
+
+    border-width: 3px 3px 3px 3px;
+    box-shadow: 3px 5px 2px 3px #531f55;
+    
     
 }
 
-.imageDash{
-    /*width: fit-content;*/
-    
-    margin-left: 100px ;
-    margin-top: 50px ;
-    margin-bottom: 25px;
-    border:  solid 3px #a7d7eb;
-    
-    border-bottom: solid 1px #6498d4;
-    
-    border-radius: 3px ;
-    border-width: 33px 28px 19px 33px;
-    box-shadow: 0px 5px 2px 3px #e77ceb;
-    opacity: 50%;
-}
+.kcard img:hover {
+    width: 300px;
+    scale:2.25;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 80%;
 
-#lbldashtp{
-    color: #7d7daf;
-    margin-left:120px;
-    font-size: 75px;
     
+
 }
-#lbldash{
-    color: #63638f;
-    margin-left:30px;
-    font-size: 75px;
+.kcard2 img:hover {
+    width: 300px;
+    scale:2.25;
+    margin-left: 0%;
+    margin-right: 40%;
+    margin-bottom: 80%;
+
     
+
 }
