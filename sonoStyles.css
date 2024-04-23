@@ -1,0 +1,434 @@
+
+
+body{
+    max-width: 1865px;
+    min-width: 300px;
+    height:auto;
+    
+    
+    background-color:#ffffff;
+}
+
+
+.imagetop{
+
+    display:flex;
+    flex-wrap: wrap;  
+    
+    background-image: linear-gradient(#fadbad,#b9cac8,#b9cac8,#b9cac8,#b9cac8);
+    
+
+
+
+
+    border: solid  #b9cac8; 
+    border-width: 6px 5px 2px 3px;
+    box-shadow: 0px 5px 9px 3px #ae7854;
+    border-radius: 15px;
+    
+    margin: 80PX;
+    padding: 20px;
+    
+
+    min-width: 380px;
+
+}
+
+.imagetop .kcard{
+
+    margin: auto;
+    
+    
+}
+
+
+
+.imagetop2{
+
+    display:flex;
+    flex-wrap: wrap;
+    
+
+
+    border: solid  #b9cac8; 
+    border-width: 6px 5px 2px 3px;
+    box-shadow: 0px 5px 9px 3px #ae7854;
+    border-radius: 15px;
+    margin: auto;
+    margin: 80PX;
+    margin-top: 0;
+    
+    background-image: linear-gradient(#fbf3cd,#fbf3cd,#ae7854);
+    background-image: linear-gradient(#b9cac8,#b9cac8,#fadbad,#fadbad);
+
+    min-width: 380px;
+    
+
+}
+.imagetop2 .kcard{
+
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    
+    
+}
+.imagetop2 .titlelogin {
+
+    font-size: 50px;
+    color:#ae7854;
+    text-align: center;
+    margin: auto;
+
+    
+}
+
+
+
+
+.imagetop2 .titlelogin span {
+    font-size: 80px;
+    color:#fbf3cd;
+    
+
+    
+    
+}
+
+.imagetop2 .titlelogin img {
+
+    scale: 2.5;
+
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+
+
+
+
+
+.kmain{
+
+    display:flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(#b9cac8,#f3f3f3,#f3f3f3);
+    
+    
+
+
+    border: solid  #b9cac8; 
+    border-width: 6px 5px 2px 3px;
+    box-shadow: 0px 5px 9px 3px #ae7854;
+    border-radius: 15px;
+
+    margin-top:150px ;
+
+    margin-left: 80px;
+
+    margin-bottom: 80px;
+    min-width: 380px;
+
+
+}
+.kmain .kcard{
+
+    margin: auto;
+    margin-top: 40px;
+    }
+
+
+    .kmain .kcard2{
+
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+
+
+
+.kRow{
+    display: flex;
+    flex-wrap: wrap;
+    gap:25px;
+    margin-left: 80px;
+    
+    
+    
+    
+}
+
+
+
+
+
+.kcard{
+    border:solid #ae7854;
+    border-width: 6px 5px 2px 3px ; 
+    box-shadow: 9px 5px 9px 3px #b9cac8;
+    border-radius: 15px;
+    height:fit-content;
+
+    width:500px;
+    min-width: 100px;
+    margin-right: 50px;
+
+}
+
+
+.kcard img{    
+    width:100%;    
+    height:auto;
+
+    border:solid;
+    border-width:  6px 5px 2px 3px #ae7854; 
+    box-shadow: 0px 5px 2px 3px #ae7854;
+    box-shadow: 0px 5px 2px 3px #fbc483;
+    border-radius: 15px;
+    
+}
+.kcard :hover{    
+    scale: 1;
+    
+    z-index: 2;
+
+}
+
+.kcard1{
+    border: solid 6px 5px 2px 3px #000066; 
+    box-shadow: 0px 5px 2px 3px #2d9292;
+    border-radius: 15px;
+    height:fit-content;
+
+    max-width:800px;
+    min-width: 300px;
+    
+
+}
+.kcard1 img{    
+    width:100%;    
+    height:auto;
+
+    border: solid 6px 5px 2px 3px #000066; 
+    box-shadow: 0px 5px 2px 3px #eac9aa;
+    border-radius: 15px;
+    
+}
+.kcard1 :hover{    
+    scale: 1;
+    margin-right:200px;
+    z-index: 2;
+
+}
+
+
+.kcard2{
+    border: solid 6px 5px 2px 3px #000066; 
+    box-shadow: 0px 5px 2px 3px #2d9292;
+    border-radius: 15px;
+    height:fit-content;
+
+    max-width:600px;
+    min-width: 300px;
+    margin-right: 30px;
+
+}
+.kcard2 img{    
+    width:100%;    
+    height:auto;
+
+    border: solid 6px 5px 2px 3px #000066; 
+    box-shadow: 0px 5px 2px 3px #eac9aa;
+    border-radius: 15px;
+    
+}
+.kcard2 :hover{    
+    scale: 1;
+    margin-right:200px;
+    z-index: 2;
+
+}
+
+.kcard3{
+    border: solid 6px 5px 2px 3px #000066; 
+    box-shadow: 0px 5px 2px 3px #2d9292;
+    border-radius: 15px;
+    height:fit-content;
+
+    max-width:600px;
+    min-width: 300px;
+    margin-right: 30px;
+
+}
+.kcard3 img{    
+    width:100%;    
+    height:auto;
+
+    border: solid 6px 5px 2px 3px #000066; 
+    box-shadow: 0px 5px 2px 3px #eac9aa;
+    border-radius: 15px;
+    
+}
+.kcard3 :hover{    
+    scale: 1;
+    margin-right:200px;
+    z-index: 2;
+
+}
+
+
+
+.kcard4{
+    border: solid 6px 5px 2px 3px #000066; 
+    box-shadow: 0px 5px 2px 3px #2d9292;
+    border-radius: 15px;
+    height:fit-content;
+
+    max-width:1050px;
+    min-width: 300px;
+    margin-left: 20px;
+    
+
+}
+.kcard4 img{    
+    width:100%;    
+    height:auto;
+
+    border: solid 6px 5px 2px 3px #000066; 
+    box-shadow: 0px 5px 2px 3px #eac9aa;
+    border-radius: 15px;
+    
+}
+.kcard4 :hover{    
+    scale: 1; 
+    z-index: 2;
+
+}
+
+
+.kcard5{
+    border: solid 6px 5px 2px 3px #000066; 
+    box-shadow: 0px 5px 2px 3px #2d9292;
+    border-radius: 15px;
+    height:fit-content;
+
+    max-width:1100px;
+    min-width: 300px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    margin-left: 250px;
+    margin-right: 150px;
+    
+
+}
+.kcard5 img{    
+    width:100%;    
+    height:auto;
+
+    border: solid 6px 5px 2px 3px #000066; 
+    box-shadow: 0px 5px 2px 3px #eac9aa;
+    border-radius: 15px;
+    
+}
+.kcard5 :hover{    
+    scale: 1;
+    
+    z-index: 2;
+
+}
+
+
+/**********************************************************************************/
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 580px) {
+    .imagetop,.imagetop,.kmain{
+        width:100%;
+        
+        margin-left: 0;
+        margin-top: 50px;
+
+    }
+
+    .imagetop, .kcard{
+        width:100%;
+        padding:0;
+        margin-bottom: 40px;
+        
+
+    }
+    .imagetop2, .kcard{
+        width:100%;
+        padding:0;
+        margin-left: 0px
+    }
+    .imagetop .kcard{
+        width:100%;
+        padding:0;
+        margin-bottom: 40px;
+        
+
+    }
+    
+    .imagetop2 .titlelogin {
+
+        font-size: 40px;
+        color:#ae7854;
+        text-align: center;
+        margin: auto;
+    
+        
+    }
+    
+    
+    
+    
+    .imagetop2 .titlelogin span {
+        font-size: 60px;
+        
+        
+    
+        
+        
+    }
+    
+    .imagetop2 .titlelogin img {
+    
+        scale: 1.5;
+    
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        
+    }
+
+}
+
+@media only screen and (min-width: 620px) {
+    .kcard5 :hover  {
+        scale: 1.0625;        
+    }  
+
+    .kcard4:hover,.kcard3:hover,.kcard2:hover ,.kcard1:hover{
+        scale: 1.375;        
+    }  
+
+    .kcard:hover{
+        scale: 1.4;        
+    }  
+
+
+            
+        
+
+
+    
+    
+
+
+
+}

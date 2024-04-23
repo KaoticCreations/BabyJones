@@ -1,0 +1,314 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    
+    
+    
+    background-color: #ffffff;
+    
+}
+
+.kTainr{
+    background-color: #7d7daf;
+    
+  
+
+}
+
+.knav{
+    background-color: #c3e01b;
+    display:none;
+    
+
+}
+
+.kheadr{
+background-color: #7e4803;
+margin: auto;
+display:none;
+    
+    
+
+}
+
+.kmain{
+   background-color: #2a2ae2;
+   
+   background-color: transparent;
+   
+   max-width: 1080px;
+   margin: auto;
+   margin-bottom: 200px;
+    
+
+}
+
+.kside{
+    background-color: #01632d;
+    display:none;
+    
+
+}
+.kAbyss{
+    background-color: #410541;
+    
+
+    
+
+}
+
+.titlelogin, .babyNme{
+    
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.babyNme h4, .titlelogin{    
+    font-size: 3rem;
+
+    margin-bottom:10px;
+    color: #caa571; 
+    color: #fbc483; 
+    color: #fadbad;
+    color: #caa571; 
+}
+.titlelogin h4 span,.babyNme h4 span{
+    
+    font-size: 3.5rem;
+
+    margin-bottom:80px;
+    color: #858158; 
+    
+    color: #caa571;  
+    color: #fbc483;  
+    
+}
+.box form .titlelogin{
+    
+    
+}
+.box form .bckgrnd{
+    margin: auto;
+    
+}
+
+.bckgrnd img{  
+    
+    scale:4;
+}
+
+
+
+
+
+.box
+{
+    position: relative;
+    
+    width:100%; 
+    min-width: 280px;    
+    height: 780px;        
+    background-color: #fbc483; 
+    
+    border-radius: 8px;
+    overflow: hidden;
+        
+    margin:auto;
+    margin-top: 100px;
+    
+}
+
+.box form
+{
+    position: absolute;    
+    inset: 4px;
+    
+    background-image:radial-gradient(#fbc483,#b9cac8,#caa571);
+    background:#fbf3fd;
+
+    padding: 50px 40px;
+    border-radius: 15px;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+
+}
+.box form .babyNme {
+    
+
+}
+
+.box form .titlelogin {
+    
+
+}
+
+.box form .action_btn {
+    margin-top: 50px;
+    
+    
+    
+
+}
+.box form .action_btn a
+{
+    background-color: #caa571  ;
+    color: #f3f3f3;
+    padding: 0.5rem 1rem;
+    border:none;
+    outline:none;
+    border-radius: 20px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center; 
+    width: 200px;
+
+    
+    
+     
+    
+    
+}
+
+.box form .bckgrnd{
+    margin: auto;
+
+}
+
+.box::before
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 80%;
+    height: 980px;
+    background: linear-gradient(0deg,transparent,transparent,#caa571,#ffffff,#caa571);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+}
+    
+    
+
+
+
+.box::after
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 80%;
+    height: 980px;
+    background: linear-gradient(0deg,transparent,transparent,#caa571,#ffffff,#caa571);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+.borderline
+{
+    position: absolute;
+    top: 0;
+    inset: 0;
+}
+.borderline::before
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 80%;
+    height: 980px;
+    background: linear-gradient(0deg,transparent,transparent,#b9cac8ff,#ffffff,#b9cac8ff);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: 1.5s;
+}
+.borderline::after
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 80%;
+    height: 980px;
+    background: linear-gradient(0deg,transparent,transparent,#b9cac8ff,#fbc483,#b9cac8ff);
+    
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -4.5s;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}   
+
+
+
+
+
+
+
+/*******************************************************************************************/
+/* Extra small devices (phones, 600px and down) */
+
+
+@media only screen and (max-width: 580px) {
+    
+     .box{
+        margin-top: 0px;
+     }
+
+     .bckgrnd img{  
+        margin: 0px;
+        scale:2.5;
+    }
+
+
+    .babyNme h4{    
+        font-size: 2.5rem;   
+        
+    }
+
+    .titlelogin h4 span{
+    
+        font-size: 3rem;    
+        margin-bottom:0px;      
+        
+    }
+    .box form .action_btn {
+        margin-top: 0px;
+        
+        
+        
+    
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+   
+}
+
